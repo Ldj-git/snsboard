@@ -1,0 +1,46 @@
+@charset "UTF-8";
+
+body{margin:0px; background-color:white;}
+
+header{	background-color:#66ffcc; color:white; margin:0px; font-size:200%; 
+		width:100%; height:100px; display:block; position:fixed; z-index:2;}
+header img{position:relative; left:10px; top:10px; cursor:pointer;}
+header span{top:0px;left:150px; bottom:10px; background-color:cadetblue;}
+header div{display:inline-block; position:relative; left:150px; top:-20px; color:black; font-size:70%;}
+#순서버튼{position:relative; top:0px; cursor:pointer; }		
+
+		
+nav{float:left; display:block; width:200px; background-color:#f2f2f2; height:100%; margin-left:0px; 
+	margin-top:100px; padding:0px;position:fixed; z-index:1;}
+
+.idpw{width:200px; margin-top:15px;}	
+.idpw table{background-color:white; margin:6px; text-align:center; width:92%; font-weight:bold;}
+
+		
+ul.menu{list-style-type:none; text-align:center;}
+.menu li{position:relative; right:25px; width:100%; padding:5px; margin-bottom:0px; background-color:white; font-weight:bold;}
+.menu li a{text-decoration:none; color:black; }
+.menu li:hover{ background-color:lightgray;}
+
+article{float:right; margin-top:100px; margin-left:0px; position:absolute; left:250px; z-index:0; width:70%;}
+
+article div{margin:50px; background-color:#f2f2f2; width:100%; padding:10px;}
+article div img{margin:10px; float:left;}
+article div p{background-color:white; padding:10px; }
+article div span{background-color:white; padding:10px; }
+#글제목{margin:50px 10px 0px;}
+#글내용{margin:10px; float:left; position:inline; width:60%;}
+#작성자이름{position:relative; left:0px; top:25px; }
+#작성시간{position:relative; top:25px; }
+#버튼{position:relative; top:25px; cursor:pointer; }
+#글사진{float:right; width:100px; height:100px;cursor:pointer; }
+#삭제버튼{position:relative; cursor:pointer; background-color:lightgray;}
+#수정사진{ width:100px; height:100px;}
+#프로필사진{width:50px;}
+#댓글창{position:relative; margin:10px; top:20px;}
+#수정댓글창{position:relative; margin:10px; top:20px; margin-top:50px; margin-bottom:30px;}
+article div div{clear:both; margin:10px; padding:20px; width:80%;}
+#좋아요사진{ width:30px; float:left; margin:0px; cursor:pointer;}
+#추천{position:relative; left:2%}
+#댓글{position:relative; left:30%; cursor:pointer;}
+#조회수{position:relative; left:50%}
